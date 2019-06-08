@@ -1,0 +1,40 @@
+.header {
+  @at-root #{&}--custom-navbar {
+    margin-bottom: -76px;
+    z-index: 1;
+  }
+
+  @at-root #{&}--carousel-item {
+      background: no-repeat center center scroll;
+      -webkit-background-size: cover;
+      background-size: cover;
+  }
+
+  @at-root #{&}--carousel-caption {
+    bottom: 50%;
+  }
+
+  @at-root #{&}__subtitle {
+    font-family: $font-abel;
+
+    @at-root #{&}--size-sm {
+      font-size: 13px;
+    }
+
+    @at-root #{&}--size-xl {
+      font-size: 16px;
+    }
+
+    @at-root #{&}--size-xxl {
+      font-size: 20px;
+    }
+
+  }
+
+
+  @at-root #{&}__button {
+    @at-root #{&}--bg {
+      background-color: rgba(222,226,230,0.78)
+    }
+  }
+}

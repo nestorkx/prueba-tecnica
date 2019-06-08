@@ -43,4 +43,9 @@
     width: 114px;
     height: 31px;
   }
+
+  @at-root #{&}--logo {
+    width: 150px;
+    height: 50px;
+  }
 }
