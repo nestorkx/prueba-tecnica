@@ -36,17 +36,26 @@
                 <div class="buy-us__description--icon-color-blue buy-us__description--icon-bg">
                   <i class="far fa-credit-card"></i>
                 </div>
-                <div class="buy-us__subtitle buy-us__subtitle--font buy-us__subtitle--font-size buy-us__subtitle--font-color">
+                <div class="buy-us__subtitle
+                buy-us__subtitle--font
+                buy-us__subtitle--font-size
+                buy-us__subtitle--font-color">
                   MESES SIN INTERESES
                 </div>
               </div>
             </div>
             <div class="col-4">
               <div class="text-center">
-                <div class="buy-us__description--icon-color-green buy-us__description--icon-bg">
+                <div
+                  class="buy-us__description--icon-color-green
+                  buy-us__description--icon-bg">
                   <i class="fas fa-lock"></i>
                 </div>
-                <div class="buy-us__subtitle buy-us__subtitle--font buy-us__subtitle--font-size buy-us__subtitle--font-color">
+                <div
+                  class="buy-us__subtitle
+                  buy-us__subtitle--font
+                  buy-us__subtitle--font-size
+                  buy-us__subtitle--font-color">
                   COMPRA <br>
                   SEGURA
                 </div>
@@ -57,7 +66,11 @@
                 <div class="buy-us__description--icon-color-pink buy-us__description--icon-bg">
                   <i class="fas fa-piggy-bank"></i>
                 </div>
-                <div class="buy-us__subtitle buy-us__subtitle--font buy-us__subtitle--font-size buy-us__subtitle--font-color">
+                <div
+                  class="buy-us__subtitle
+                  buy-us__subtitle--font
+                  buy-us__subtitle--font-size
+                  buy-us__subtitle--font-color">
                   <span>PRECIO + BAJO</span><br>
                   <span>GARANTIZADO</span>
                 </div>
@@ -71,7 +84,10 @@
                 <div class="buy-us__description--icon-color-yellow buy-us__description--icon-bg">
                   <i class="far fa-star"></i>
                 </div>
-                <div class="buy-us__subtitle buy-us__subtitle--font buy-us__subtitle--font-size buy-us__subtitle--font-color">
+                <div class="buy-us__subtitle
+                buy-us__subtitle--font
+                buy-us__subtitle--font-size
+                buy-us__subtitle--font-color">
                   <span>TAQUILLAS</span><br>
                   <span>ESPECIALES</span>
                 </div>
@@ -82,7 +98,10 @@
                 <div class="buy-us__description--icon-color-blue buy-us__description--icon-bg">
                   <i class="fas fa-cloud"></i>
                 </div>
-                <div class="buy-us__subtitle buy-us__subtitle--font buy-us__subtitle--font-size buy-us__subtitle--font-color">
+                <div class="buy-us__subtitle
+                buy-us__subtitle--font
+                buy-us__subtitle--font-size
+                buy-us__subtitle--font-color">
                   <span>GARANTIA</span><br>
                   <span>MAL CLIMA</span>
                 </div>
@@ -93,7 +112,10 @@
                 <div class="buy-us__description--icon-color-gold buy-us__description--icon-bg">
                   <i class="fas fa-shield-alt"></i>
                 </div>
-                <div class="buy-us__subtitle buy-us__subtitle--font buy-us__subtitle--font-size buy-us__subtitle--font-color">
+                <div class="buy-us__subtitle
+                buy-us__subtitle--font
+                buy-us__subtitle--font-size
+                buy-us__subtitle--font-color">
                   <span>SEGURO</span><br>
                   <span>DE VIAJEs</span>
                 </div>
@@ -103,7 +125,11 @@
 
           <div class="row py-3">
             <div class="col-12 text-center">
-              <button type="button" class="btn btn-outline-success rounded-pill buy-us__button--font px-4">
+              <button type="button"
+               class="btn
+               btn-outline-success
+               rounded-pill
+               buy-us__button--font px-4">
                 M&Aacute;S INFO
               </button>
             </div>
@@ -129,7 +155,10 @@
 
           <div class="row mt-3">
             <div class="col text-center">
-              <p class="buy-us__head--title buy-us__description--size-md buy-us__description--font-color">
+              <p
+                class="buy-us__head--title
+                buy-us__description--size-md
+                buy-us__description--font-color">
                 Con los principales bancos y trajetas emitidas <br>
                 en México. * No aplica con PayPal
               </p>
@@ -138,7 +167,11 @@
 
           <div class="row mt-3">
             <div class="col text-center">
-              <button type="button" class="btn btn-outline-success rounded-pill buy-us__button--font px-4">
+              <button type="button"
+               class="btn
+               btn-outline-success
+               rounded-pill
+               buy-us__button--font px-4">
                VER OPCIONES
               </button>
             </div>
@@ -164,7 +197,10 @@
 
           <div class="row">
             <div class="col text-center">
-              <button type="button" class="btn btn-outline-success rounded-pill buy-us__button--font px-4">
+              <button type="button"
+              class="btn
+              btn-outline-success rounded-pill
+              buy-us__button--font px-4">
                 SUSCRIBETE
               </button>
             </div>

@@ -1,5 +1,5 @@
 <template>
-    <div class="contact contact--bg py-4">
+    <div class="contact contact--bg py-4 d-sm-none d-xl-block">
       <div class="container">
         <div class="row">
           <div class="col-9">
@@ -42,6 +42,6 @@
 
 <script>
 export default {
-  name: "ContactPhone"
-}
+  name: 'ContactPhone',
+};
 </script>
