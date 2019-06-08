@@ -1,0 +1,46 @@
+.title {
+  @at-root #{&}__head {
+
+    @at-root #{&}--title {
+      font-weight: bold;
+    }
+
+    @at-root #{&}--font {
+      font-family: $font-abel;
+    }
+
+    @at-root #{&}--border {
+      border-top: 2px solid #fff;
+    }
+
+    @at-root #{&}--color {
+      color: #ffee00;
+    }
+
+    @at-root #{&}--link {
+      color: #ffff;
+    }
+
+  }
+}
+
+.list {
+  font-size: 14px;
+  line-height: 24px;
+  padding-left: 20px;
+
+  @at-root #{&}--color {
+    color: #ffff;
+  }
+
+  @at-root #{&}--font {
+    font-family: $font-abel;
+  }
+}
+
+.img {
+  @at-root #{&}--custom-size {
+    width: 114px;
+    height: 31px;
+  }
+}

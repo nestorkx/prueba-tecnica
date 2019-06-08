@@ -1,0 +1,11 @@
+.footer-about {
+  @at-root #{&}--bg {
+    background-color: rgb(0, 147, 53);
+  }
+
+  @at-root #{&}--font {
+    font-size: 14px;
+    font-family: $font-cabin;
+  }
+
+}

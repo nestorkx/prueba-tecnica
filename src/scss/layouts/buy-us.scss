@@ -1,0 +1,100 @@
+.buy-us {
+  @at-root #{&}__head {
+
+    @at-root #{&}--title {
+      font-family: $font-cantarell;
+    }
+
+    @at-root #{&}--color {
+      color: #009335;
+    }
+  }
+
+  @at-root #{&}__description {
+    line-height: 14px;
+
+    @at-root #{&}--color {
+     color: #3498db;
+    }
+
+    @at-root #{&}--font {
+      font-family: 'Arial', sans-serif;
+      font-weight: bold;
+    }
+
+    @at-root #{&}--font-custom {
+      line-height: 16px;
+      font-family: $font-cabin;
+    }
+
+    @at-root #{&}--font-color {
+      color: #454545;
+    }
+
+    @at-root #{&}--size-lg {
+      font-size: 20px;
+    }
+
+    @at-root #{&}--size-md {
+      font-size: 13px;
+    }
+
+    @at-root #{&}--size-sm {
+      font-size: 11px;
+    }
+
+    @at-root #{&}--icon-color-blue {
+      color: #3498db;
+    }
+
+    @at-root #{&}--icon-color-green {
+      color: rgb(0, 147, 53);
+    }
+
+    @at-root #{&}--icon-color-pink {
+      color: rgb(255, 69, 153);
+    }
+
+    @at-root #{&}--icon-color-yellow {
+      color: rgb(230, 210, 0);
+    }
+
+    @at-root #{&}--icon-color-gold {
+      color: rgb(255, 183, 0);
+    }
+
+    @at-root #{&}--icon-bg {
+        font-size: 24px;
+    }
+
+    @at-root #{&}--icon-xl {
+      font-size: 60px;
+    }
+
+  }
+
+  @at-root #{&}__subtitle {
+    line-height: 12px;
+
+    @at-root #{&}--font {
+      font-family: $font-abel;
+    }
+
+    @at-root #{&}--font-size {
+      font-size: 11px;
+    }
+
+    @at-root #{&}--font-color {
+      color: #616161;
+    }
+
+  }
+
+  @at-root #{&}__button {
+
+    @at-root #{&}--font {
+      font-family: $font-abel;
+    }
+  }
+
+}
