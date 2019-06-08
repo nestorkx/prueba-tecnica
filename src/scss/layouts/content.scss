@@ -1,0 +1,19 @@
+.content {
+  @at-root #{&}__title {
+    font-family: $font-cantarell;
+
+    @at-root #{&}--color {
+     color: #6e6e6e;
+    }
+  }
+
+  @at-root #{&}__description {
+    font-family: $font-cantarell;
+    font-size: 14px;
+
+    @at-root #{&}--color {
+      color: #6e6e6e;
+    }
+
+  }
+}
