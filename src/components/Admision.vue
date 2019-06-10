@@ -1,9 +1,9 @@
 <template>
-  <section>
-    <ul class="nav nav-pills mb-3 mt-4" id="pills-tab" role="tablist">
-      <li class="nav-item">
+  <section class="admision">
+    <ul class="nav nav-pills mt-4" id="pills-tab" role="tablist">
+      <li class="nav-item custom__item">
         <a
-          class="nav-link active"
+          class="nav-link custom__nav--link active px-5"
           id="pills-home-tab"
           data-toggle="pill"
           href="#pills-home"
@@ -13,8 +13,8 @@
           Descripci&oacute;n
         </a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link"
+      <li class="nav-item custom__item">
+        <a class="nav-link custom__nav--link"
            id="pills-profile-tab"
            data-toggle="pill"
            href="#pills-profile"
@@ -24,9 +24,9 @@
             Incluye
         </a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item custom__item">
         <a
-          class="nav-link"
+          class="nav-link custom__nav--link"
           id="pills-contact-tab"
           data-toggle="pill"
           href="#pills-contact"
@@ -36,8 +36,20 @@
           Recomendaciones
         </a>
       </li>
+      <li class="nav-item custom__item">
+        <a
+          class="nav-link custom__nav--link"
+          id="pills-important-tab"
+          data-toggle="pill"
+          href="#pills-important-info"
+          role="tab"
+          aria-controls="pills-important-info"
+          aria-selected="false">
+          Informaci&oacute;n Importante
+        </a>
+      </li>
     </ul>
-    <div class="tab-content" id="pills-tabContent">
+    <div class="tab-content content" id="pills-tabContent">
       <div
         class="tab-pane fade show active"
         id="pills-home"
@@ -47,13 +59,18 @@
 
         <div class="row">
           <div class="col-12" >
-            <h4 class="content__title content__title--color">{{ item.tituloH1 }}</h4>
+            <h4 class="content__title content__title--color">
+              {{ item.tituloH1 }}
+            </h4>
           </div>
         </div>
 
         <div class="row">
           <div class="col-12">
-            <p class="text-justify content__description content__description--color">
+            <p
+              class="text-justify
+              content__description
+              content__description--color">
               {{ item.descripcion }}
             </p>
           </div>
@@ -61,7 +78,9 @@
 
         <div class="row">
           <div class="col-12">
-           <h4 class="content__title content__title--color">Atractivos principales</h4>
+           <h4 class="content__title content__title--color">
+             Atractivos principales
+           </h4>
             <ul
               class="content__description content__description--color"
               v-for="(atractive, index) in item.atractivos"
@@ -73,7 +92,9 @@
 
         <div class="row">
           <div class="col-12">
-            <strong class="content__description content__description--color">
+            <strong
+              class="content__description
+              content__description--color">
               Nota: Actividades incluidas en tu entrada.
             </strong>
           </div>
@@ -93,6 +114,13 @@
         role="tabpanel"
         aria-labelledby="pills-contact-tab">
         Recomendaciones
+      </div>
+      <div
+        class="tab-pane fade"
+        id="pills-important-info"
+        role="tabpanel"
+        aria-labelledby="pills-important-info">
+        Información Importante
       </div>
     </div>
   </section>
