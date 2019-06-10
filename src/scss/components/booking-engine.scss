@@ -1,0 +1,111 @@
+.booking {
+
+  @at-root #{&}__fieldset {
+    border: 1px solid #e0e0e0;
+    padding: 1rem;
+  }
+
+  @at-root #{&}__legend {
+    width: 60%;
+
+    @at-root #{&}--title {
+      font-family: $font-abel;
+    }
+
+    @at-root #{&}--color {
+      color: #009335;
+    }
+  }
+
+  @at-root #{&}__prices {
+    font-family: $font-abel;
+    font-size: 18px;
+
+    @at-root #{&}--before {
+      text-decoration: line-through;
+    }
+
+    @at-root #{&}--title {
+      font-size: 20px;
+    }
+
+    @at-root #{&}--color {
+      color: #009335;
+    }
+
+    @at-root #{&}--before-color {
+     color: #6e6e6e;
+    }
+
+    @at-root #{&}--after-color {
+      color: #009335;
+    }
+
+  }
+
+  @at-root #{&}__pax {
+    font-family: $font-abel;
+  }
+
+  @at-root #{&}__other-services {
+    font-family: $font-abel;
+    font-size: 12px;
+
+    @at-root #{&}--color {
+     color: #009335;
+    }
+
+    @at-root #{&}--switch {
+      .custom-control-input:checked {
+        & ~.custom-control-label:before {
+           border-color: #009335;
+            background-color: #009335;
+          }
+      }
+    }
+  }
+
+  @at-root #{&}__total {
+    font-family: $font-abel;
+
+    @at-root #{&}--color {
+      color: #009335;
+    }
+
+  }
+
+  @at-root #{&}__months {
+    font-family: $font-cabin;
+
+    @at-root #{&}--color {
+      color: #0588d0;
+    }
+  }
+
+  @at-root #{&}__restrictions {
+    font-family: $font-cantarell;
+    font-size: 13px;
+
+    @at-root #{&}--color {
+      color: #616161;
+
+      a {
+        color: #616161;
+      }
+
+    }
+  }
+
+  @at-root #{&}__button {
+    font-family: $font-abel;
+  }
+
+  @at-root #{&}__policy {
+    font-family: $font-abel;
+    line-height: 12px;
+
+    @at-root #{&}--color {
+      color: #3498db;
+    }
+  }
+}
